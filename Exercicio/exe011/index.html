@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou aumente ou diminua o tamanho do navgador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotos.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotos-m.png" type="image/png">
+        <img src="imagens/fotos-g.png" alt="imagen flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reroduzi áudio em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <!-- 1º Formar d tocar MP3-->
+        <!--<audio src="midia/portas abertas.mp3" controls autoplay></audio>
+        <MP3 WAV OGG-->
+        <!--2º Forma-->
+        <source src="midia/portas abertas.mp3" type="audio/mpeg">
+        <source src="midia/portas abertas.ogg" type="audio/ogg">
+        <source src="midia/portas abertas.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegui reroduzir áudio</p>
+        <a href="midia/portas abertas.mp3"></a>click aqui para baixar o arquivo mp3</a</p>
+     <audio>
+      
+</body>
+</html>
